@@ -102,6 +102,11 @@ nav {
 
 }
 
+ul.b {
+
+    text-align: center;
+}
+
 @media screen and (min-width: 1800px) {
 
     .container {
@@ -126,8 +131,16 @@ nav {
         text-align: left;
     }
 
-    
+    .sites {
+
+        font-size: x-large;
+        line-height: normal;
+        text-align: left;
+    }
 }
+
+    
+
 
 @media screen and (max-width:800px) {
 
@@ -179,4 +192,9 @@ nav {
         padding: 80px;
     }
     
+    .sites {
+
+        font-size: medium;
+        line-height: normal;
+    }
 }
